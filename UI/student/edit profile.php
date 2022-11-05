@@ -192,7 +192,7 @@ label{
     <html>
         <body>
             <div class="div-photo">
-                <img class="photo" src="../../image/user-weman.png" /><br>
+                <img class="photo" src="../../sources/image/user-weman.png" /><br>
                 <label class="lable-edit-phto">Edit Photo</label>
             </div>
 

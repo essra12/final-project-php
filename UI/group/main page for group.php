@@ -129,7 +129,7 @@ font-size: 18px;
             <input class="search" type="search" placeholder="Enter Code Group " /> 
             <input class="bt" type="button" value="search" />
              <div class="photo-div">
-                    <img class="img-user" src="../../image/user-man.png" />
+                    <img class="img-user" src="../../sources/image/user-man.png" />
             </div>
         </div>
            
@@ -139,14 +139,14 @@ font-size: 18px;
        <a href="">
           <div class="g-java"> 
           <label> Java </label>
-          <img class="bc" src="../../image/pc.png" />   
+          <img class="bc" src="../../sources/image/pc.png" />   
       </div>    
       </a>
 
         <a href="">
         <div class="g-java"> 
             <label> Java </label>
-            <img class="bc" src="../../image/pc.png" />   
+            <img class="bc" src="../../sources/image/pc.png" />   
            </div> 
         </a>
         </div>
@@ -157,14 +157,14 @@ font-size: 18px;
        <a href="">
         <div class="g-java"> 
             <label> Java </label>
-            <img class="bc" src="../../image/pc.png" />   
+            <img class="bc" src="../../sources/image/pc.png" />   
            </div>  
         </a> 
 
         <a href="">
           <div class="g-java"> 
             <label> Java </label>
-            <img class="book" src="../../image/books.png" />   
+            <img class="book" src="../../sources/image/books.png" />   
           </div>  
         </a> 
 

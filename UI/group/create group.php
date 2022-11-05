@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>create Admin</title>
+    <title>create group </title>
     <meta name="descreption " content=" " />
     <script src="https://kit.fontawesome.com/e1ca29be31.js" crossorigin="anonymous"></script>
     </head>
@@ -12,8 +12,7 @@
 body{
     background-color: #A4D2F0;
 }
-
-/* nav bar  */
+/* navecation bar  */
 .tool-div{
 background-color: #222242;
 width: 20%;
@@ -41,11 +40,13 @@ left: 5%;
     top: 29%;
     left: 40%;
 }
-.img-g{
+#img-g{
 
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 30%;
+    left: 15%;
+    color: white;
+    
 }
 
 .a-teacher{
@@ -89,8 +90,7 @@ a{
 }
 
 
-/* create admin form*/
-
+/* create group style  */
 .create-g-div{
     background-color: white;
     width: 50%;
@@ -107,12 +107,13 @@ text-align: center;
 .lable-create{
 
 position: absolute;
-top: 7%;
+top: 10%;
 left: 50%;
 transform: translate(-50%);
 font-size: 30px;
 
 }
+
 .img-greate{
 
     position: absolute;
@@ -120,81 +121,48 @@ top: 20%;
 left: 50%;
 transform: translate(-50%);
 font-size: 30px; 
-height: 15%;
-width: 15%;
 }
+
 #user-iocn{
     position:absolute;
-    top: 46%;
+    top: 54.5%;
     left: 33%;
 }
+
 .input-name{
     position:absolute;
-    top: 45%;
-    left: 30%;
-   border-bottom: 1px solid black;
-    width: 40%;
-    margin-left: 1%;
-
-    border-radius: 25px; 
-    padding-left: 6%;
-    height: 5%; 
-}
-#pass-iocn{
-    position: absolute;
-    top: 56.5%;
-    left: 33%;
-   
-}
-.input-pass{
-    position:absolute;
-    top: 55%;
-    left: 30%;
-    border-bottom: 1px solid black;
-    width: 40%;
-    margin-left: 1%;
-    border-radius: 25px; 
-    padding-left: 6%;
-    height: 5%;
-
-}
-.input-pass2{
-    position:absolute;
-    top: 65%;
+    top: 53%;
     left: 30%;
     border-radius: 25px; 
     padding-left: 6%;
-    height: 5%;
-        border-bottom: 1px solid black;
+    height: 5%;    border-bottom: 1px solid black;
     width: 40%;
     margin-left: 1%;
 }
-#pass2-iocn{
-    position: absolute;
-    top: 66.5%;
+
+
+#user-iocn1{
+    position:absolute;
+    top: 64%;
     left: 33%;
-   
 }
 
-.check-box-admiin{
+.select-t{
+    position:absolute;
+    top: 63%;
+    left: 30%;
+    border-radius: 25px; 
+    padding-left: 6%;
+    height: 5%;    border-bottom: 1px solid black;
+    width: 47%;
+    margin-left: 1%;
 
-    position:absolute;
-    top: 75%;
-    left: 33%;
-    width: 3%;
-    height: 3%;  
-}
-.lb{
-    position:absolute;
-    top: 75%;
-    left: 38%; 
-    color: #6f6f6f;
 }
 .bt-save{
     position:absolute;
-    top: 85%;
+    top: 73%;
     left: 30%;
-    width: 47%;
+    width: 50%;
     background-color: #222242;
     height: 7%;
     color: white;
@@ -234,29 +202,31 @@ height: 30%;
 width: 40%;
 text-align: center;
 }
-/** media  when max-width:830px */
+/**media when  max-width:830px */
 
 @media(max-width:830px)
 {
 
 .img-name{
     position:absolute;
-  
+    top: 50%;
     left: 18%;
-}
-.img-n{
-    left: 18%;
-}
-.img-pass{
-    left: 18%;
-}
-.img-pass2{
-    left: 18%;
-}
-
-/** media  when max-width:660px */
 
 }
+.img-t{
+    top: 60%;
+    left: 18%;
+}
+.img-greate{
+    width: 40%;
+    height: 20%;
+}
+.lable-create{
+    font-size: 20px;
+}
+}
+/**media when  max-width:660px */
+
 @media(max-width:660px)
 {
 
@@ -271,12 +241,16 @@ text-align: center;
 }
 
 }
-/** media  when max-width:900px */
+/**media when  max-width:900px */
 
 @media(max-width:900px)
 {
+    .img-greate{
+    width: 40%;
+    height: 20%;
+}
 .lable-create{
-    font-size: 23px;
+    font-size: 28px;
 }
 }
 
@@ -284,87 +258,57 @@ text-align: center;
     <html>
         <body>
 
-
             
             <!-- div tools-->
-
-            <div   class="tool-div">
-            <img class="img-ad" src="../../image/create.png"/>
+    <div   class="tool-div">
+            <img class="img-ad" src="../../sources/image/user-man.png"/>
             <label class="l-id-admin"><b>Admin name</b>  <br> 172038</label>
 
               <a class="a-group" href="" > Groups</a>
+              <i  id="img-g" class="fa-regular fa-user"></i>
+
               <a class="a-teacher" href="" > Teachers</a>
               <a class="a-student" href="" > Students</a>
               <a class="a-file" href="" > Files </a>
+
 
               <img class="img-g" src="pic/gr.png"/>
               <img class="img-g1" src="pic/tr.png"/>
               <img class="img-s" src="pic/st.png"/>
               <img class="img-f" src="pic/file.png"/>
-        
-              <div class="div-admin-footer">
-               
-              <input class="bt-admin" type="button" value="Admin "/>
 
-              </div>
-              <img class="img-ad-footer" src="pic/admin.png"/>
-              </div>
-              
+     <div class="div-admin-footer">
+                <input class="bt-admin" type="button" value="Admin "/>
+     </div>
+              <img class="img-ad-footer" src="../../sources/image/admin.png"/>
+     </div>
+           
                <!-- GREATE GROUPS -->
-               <div class="create-g-div">
-                <label class="lable-create">Greate Teacher <br> Account </label>
-                <img class="img-greate" src="../../image/create.png"/>
+         <div class="create-g-div">
+                <label class="lable-create">Greate Group </label>
+                <img class="img-greate" src="../../sources/image/create group.png"/>
 
-                <input id="name" class="input-name" type="text"  placeholder="Full Name"/>
+                <input id="name" class="input-name" type="text"  placeholder="Group Name"/>
                 <i  id="user-iocn" class="fa-regular fa-user"></i>
 
-                <input id="pass" class="input-pass" type="password"  placeholder="password"/>
-                <i  id="pass-iocn" class="fa-solid fa-lock"></i>
-
-                <input id="cof-pass" class="input-pass2" type="password"  placeholder="confirm password"/>
-                <i  id="pass2-iocn" class="fa-solid fa-lock"></i>
-
-                <input id="check" class="check-box-admiin" type="checkbox"  />
-                <label class="lb">Admin</label>
+                <select class="select-t">
+                    <option>essra</option>
+                    <option>sara</option>
+                </select>
+                <i  id="user-iocn1" class="fa-regular fa-user"></i>
 
                 <input class="bt-save" type="button" value="Save" onclick="check_Enter()" />
-              
-               </div>
+         </div>
 
-<!-- check enter -->
-<script>
-
-    function check_Enter() {
-   
-    const NAME = document.getElementById("name").value;
-    const pass = document.getElementById("pass").value;
-    const pass2=document.getElementById("cof-pass").value;
-    const check=document.getElementById("check").value;
-  
-   
-    if(NAME==""){
-    alert(" pleas enter name");
-    return false
-    }
-    
-    else if(pass==""){
-    alert("    pleas enter password ");
-    return false
-    }
-    if(pass2==""){
-    alert(" pleas enter password again");
-    return false
-    }
-  if(pass != pass2){
-  alert(" the password is not equal ");
-  return false
-    }
-    if (!document.getElementById('check').checked) {
-        alert("You didn't check it!");
-        return false     
-            }
-    }
+    <!-- check enter -->
+    <script>
+        function check_Enter() {
+        const NAME = document.getElementById("name").value;
+        if(NAME==""){
+        alert(" pleas enter Group-name");
+        return false
+        }
+        }
     </script>
-
 </body>
 </html>

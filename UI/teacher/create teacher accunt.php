@@ -308,7 +308,7 @@ text-align: center;
             <!-- nav bar-->
 
             <div   class="tool-div">
-            <img class="img-ad" src="../../image/user-man.png"/>
+            <img class="img-ad" src="../../sources/image/user-man.png"/>
             <label class="l-id-admin"><b>Admin name</b>  <br> 172038</label>
 
               <a class="a-group" href="" > Groups</a>
@@ -326,13 +326,13 @@ text-align: center;
               <input class="bt-admin" type="button" value="Admin "/>
 
               </div>
-              <img class="img-ad-footer" src="../../image/admin.png"/>
+              <img class="img-ad-footer" src="../../sources/image/admin.png"/>
             </div>
  
             <!-- GREATE teacher -->
                <div class="create-g-div">
                 <label class="lable-create">Greate Teacher <br> Account </label>
-                <img class="img-greate" src="../../image/create.png"/>
+                <img class="img-greate" src="../../sources/image/create.png"/>
 
 
                 <input id="name" class="input-name" type="text"  placeholder="Full Name"/>
