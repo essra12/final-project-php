@@ -23,40 +23,40 @@ div{
 
 }
 .div-photo{
-background-color: #222242;
-border-radius: 10px;
-z-index: 1;
-margin-left: 5%;
-margin-top: 5%;
-box-shadow: 4px 4px 4px rgb(135, 134, 134); 
-text-align: center;
-color: white;
-
-position: relative;
+    background-color: #222242;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -3px 3px 10px rgb(0 0 0 / 0.2);
+    z-index: 1;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    position: relative;
 
 }
 .div-data{
-   background-color: white;
-   border-radius: 10px;
-   margin-right: 5%;
-   margin-top: 5%;
-z-index: 0;
-position: relative;
-text-align: center;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+    margin-right: 5%;
+    margin-top: 5%;
+    z-index: 0;
+    position: relative;
+    text-align: center;
 
 }
 .photo{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50% , -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 
 }
 .lable-edit-phto{
 position: absolute;
 top: 70%;
-left: 50%;
-transform: translate(-80% ,-50%);
+left: 52%;
+transform: translate(-80% ,-52%);
 margin-left: 4%;
 }
 
